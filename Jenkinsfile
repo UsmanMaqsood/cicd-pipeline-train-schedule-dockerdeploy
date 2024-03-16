@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             tools {
-                gradle 5.0 
+                gradle 5
             }
             steps {
                 sh 'gradle init'
